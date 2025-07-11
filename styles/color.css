@@ -37,6 +37,12 @@ h4 {
   color: #4E47FF;
 
 }
+header a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
 
 .btn-primary {
   font-size: 16px;
@@ -187,6 +193,8 @@ section {
   gap: 20px;
 }
 
+
+
 .banner-title {
   text-align: center;
   align-content: center;
@@ -220,10 +228,11 @@ button {
 }
 
 /* form-part */
-#last-item {
+#list-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 
 }
 
@@ -238,7 +247,8 @@ section textarea {
   background-color: #FFFFFF;
   font-size: 20px;
   gap: 50px;
-
+  border: 0em;
+ 
 
 }
 
@@ -252,7 +262,7 @@ section input[type="button"] {
 }
 
 .last-part {
-  font-size: 97px;
+  font-size: 87px;
   font-weight: bold;
   color: #000000;
   margin: 120px 115px 129px 0px;
