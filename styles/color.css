@@ -5,10 +5,14 @@
   font-style: normal;
 }
 
-body {}
+.body{
+  margin: 0px;
+  padding: 0px;
+   background-color:;
+}
 
 .secondary-bg {
-  background-color: #8987A1;
+  background-color: #cfcde2;
 }
 
 .hat {
@@ -71,9 +75,11 @@ main {
   border-radius: 48px;
 
 }
-img{
+
+img {
   border-radius: 48px;
 }
+
 .title-2-about {
   font-size: 42px;
   font-weight: bold;
@@ -178,7 +184,8 @@ section {
   color: #rgba(0, 0, 0, 0.5);
   gap: 20px;
 }
-.banner-title{
+
+.banner-title {
   text-align: center;
   align-content: center;
 }
@@ -190,20 +197,22 @@ button {
 .banner {
   display: block;
   align-items: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 71px 150px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
 
 }
 
 
 .banner-image {
-  
-  
+
+
 
   border-radius: 48px;
 }
 
-.photo{
+.photo {
   display: block;
   align-content: center;
 }
@@ -271,14 +280,15 @@ nav ul {
   width: 45px;
   gap: 48px;
 
-  
+
 }
 
 nav a {
   text-decoration: none;
   color: #8987A1;
 }
-footer{
+
+footer {
   display: block;
   align-items: center;
 
