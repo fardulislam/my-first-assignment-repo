@@ -69,8 +69,11 @@ main {
 
 .photo {
   border-radius: 48px;
-}
 
+}
+img{
+  border-radius: 48px;
+}
 .title-2-about {
   font-size: 42px;
   font-weight: bold;
@@ -175,6 +178,10 @@ section {
   color: #rgba(0, 0, 0, 0.5);
   gap: 20px;
 }
+.banner-title{
+  text-align: center;
+  align-content: center;
+}
 
 button {
   margin-bottom: 20px;
@@ -183,18 +190,22 @@ button {
 .banner {
   display: block;
   align-items: center;
+  border: 1px solid black;
+  padding: 71px 150px;
 
 }
+
 
 .banner-image {
-  height: 50px;
-  width: 50px;
+  
+  
 
   border-radius: 48px;
 }
 
-img {
-  border-radius: 48px;
+.photo{
+  display: block;
+  align-content: center;
 }
 
 /* form-part */
@@ -254,12 +265,22 @@ nav {
 }
 
 nav ul {
+  display: flex;
   list-style: none;
   height: 24px;
   width: 45px;
+  gap: 48px;
+
+  
 }
 
 nav a {
   text-decoration: none;
   color: #8987A1;
+}
+footer{
+  display: block;
+  align-items: center;
+
+  margin: 104px 456px 103px 455px;
 }
