@@ -5,10 +5,11 @@
   font-style: normal;
 }
 
-.body{
+.body {
   margin: 0px;
   padding: 0px;
-   background-color:;
+
+  background-color: ;
 }
 
 .secondary-bg {
@@ -18,6 +19,7 @@
 .hat {
   max-width: 1440px;
   height: 698px;
+  width: 100%;
   background-image: url(../Assets/Hero-bg.png);
 
 }
@@ -197,9 +199,9 @@ button {
 .banner {
   display: block;
   align-items: center;
-  /* border: 1px solid black; */
+  border: 0px solid rgb(237, 226, 226);
   padding: 71px 150px;
-  background-color: #FFFFFF;
+  background-color: rgb(240, 235, 235);
   border-radius: 5px;
 
 }
@@ -239,6 +241,14 @@ section textarea {
 
 
 }
+section input[type="button"]{
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  width: 497px;
+  height: 70px;
+  padding: 32px;
+}
 
 .last-part {
   font-size: 97px;
@@ -247,6 +257,10 @@ section textarea {
   margin: 120px 115px 129px 0px;
 }
 
+.form-part {
+  gap: 19px;
+  margin-top: 20px;
+}
 
 
 
