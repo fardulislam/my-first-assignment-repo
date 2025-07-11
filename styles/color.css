@@ -8,12 +8,12 @@
 .body {
   margin: 0px;
   padding: 0px;
-
-  background-color: ;
+  width: 100%;
+  background-color:#f2f1fc ;
 }
 
 .secondary-bg {
-  background-color: #cfcde2;
+  background-color: #f2f1fc;
 }
 
 .hat {
@@ -28,7 +28,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 150px;
+  margin: 50px px;
 }
 
 h4 {
@@ -241,7 +241,8 @@ section textarea {
 
 
 }
-section input[type="button"]{
+
+section input[type="button"] {
   background-color: #4E47FF;
   color: #FFFFFF;
   border-radius: 10px;
